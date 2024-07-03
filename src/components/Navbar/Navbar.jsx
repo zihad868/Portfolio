@@ -1,12 +1,15 @@
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+  const activeNavLink = ({isActive}) => (isActive ? 'text-primary' : '')
+
   const navLink = (
-    <div className="space-x-4">
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/about'>About</NavLink>
-      <NavLink to='/skill'>Skill</NavLink>
-      <NavLink to='/contact'>Contact me</NavLink>
+    <div className="space-x-4 font-bold">
+      <NavLink to='/' className={activeNavLink}>Home</NavLink>
+      <NavLink to='/about' className={activeNavLink}>About</NavLink>
+      <NavLink to='/skill' className={activeNavLink}>Skill</NavLink>
+      <NavLink to='/contact' className={activeNavLink}>Contact me</NavLink>
     </div>
   );
 
