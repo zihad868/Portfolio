@@ -1,0 +1,30 @@
+[
+    {
+        "_id": 1,
+        "projectTitle": "DevTalk-Forum",
+        "projectPhoto": "https://i.ibb.co/4Nn9549/django-1.jpg",
+        "gitClient": "https://github.com/zihad868/DevTalk-Forum-Client",
+        "gitServer": "https://github.com/zihad868/DevTalk-Forum-Server",
+        "liveLink": "https://devtalk-ee27e.web.app/",
+        "projectDescription": "DevTalk Forum is an inclusive online platform where registered members can freely express opinions, engage through comments, and indicate appreciation via likes. Normal users are allotted up to five posts, while Gold members, who utilize Stripe for seamless transactions, enjoy unlimited posting privileges. The platform provides intuitive dashboards for both users and administrators. Admins wield the authority to manage users, posts, and elevate members to admin status. Users retain control over their contributions with the ability to delete posts and interact with content through comments, likes, or dislikes. Enhanced security features include JWT tokens and secure private/admin routes. Core functionalities encompass seamless registration, secure login/logout processes, robust search capabilities, and dynamic displays showcasing trending posts based on community engagement."
+      },      
+      {
+        "_id": 2,
+        "projectTitle": "E-Learning Book",
+        "projectPhoto": "https://i.ibb.co/4Nn9549/django-1.jpg",
+        "gitClient": "https://github.com/zihad868/E-Learners-Client",
+        "gitServer": "https://github.com/zihad868/E-Learners-Server-",
+        "liveLink": "https://librarymanagement-eed8e.web.app",
+        "projectDescription": "The Online E-Library System offers a seamless platform for users to explore, borrow, and manage books conveniently from anywhere. Users can browse a diverse collection categorized into genres like Novel, Thriller, Drama, and Sci-Fi, filtering available books based on their interests. The system highlights popular books with ratings above four, ensuring users discover quality reads. Authenticated users have the privilege to add, update, or delete books through MongoDB integration, while borrowing and returning books dynamically adjusts their availability. Login options include email and Google accounts, providing secure access to personalized book borrowing histories. Error handling features, including a custom 404 page, enhance user experience by addressing incorrect URL visits. This platform, powered by technologies like React Datepicker, SweetAlert, and Firebase, caters to learners and avid readers alike, facilitating an enriching online reading experience."
+      },
+      {
+        "_id": 3,
+        "projectTitle": "Art and Craft",
+        "projectPhoto": "https://i.ibb.co/4Nn9549/django-1.jpg",
+        "gitClient": "https://github.com/zihad868/Art-Craft-Client",
+        "gitServer": "https://github.com/zihad868/Art-Craft-Server",
+        "liveLink": "https://artcraft-9fe4c.web.app",
+        "projectDescription": "Art & Craft is a vibrant online platform where registered users can showcase their creativity by posting, updating, and managing their craft items. Each user enjoys exclusive control over their posts, ensuring privacy and personalized content management. The website features dedicated sections such as 'Add Craft,' 'Update Craft,' and 'My Craft,' accessible to logged-in users for seamless CRUD operations facilitated by Express and MongoDB. Registration is streamlined through email, while login options include email, GitHub, and Google accounts, ensuring secure and convenient access. The 'My Craft' section displays posts specific to each user, enhancing user experience and content relevance. Error handling includes a custom 'Page Not Found' feature for incorrect URL navigation, ensuring smooth navigation across the platform. Powered by technologies like Swiper slider, React Hook Form, React Icons, SweetAlert2, and Firebase, Art & Craft offers a user-friendly interface where creativity thrives across categories like Jute & Wooden Crafts, Wooden Furniture & Sculptures, Wooden Home Decor, Jute Home Decor, and more."
+      }
+      
+]
