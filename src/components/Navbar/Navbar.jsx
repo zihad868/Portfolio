@@ -24,6 +24,10 @@ const Navbar = () => {
           Skill
         </NavLink>
 
+        <NavLink to="/projects" className={activeNavLink}>
+          Projects
+        </NavLink>
+
         <NavLink to="/contact" className={activeNavLink}>
           Contact me
         </NavLink>

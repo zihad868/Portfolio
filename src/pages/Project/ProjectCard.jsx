@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const ProjectCard = ({ projects }) => {
-  console.log(projects);
+  
   return (
-    <div>
+    <div className="p-4">
       <img className="rounded-lg" src={projects?.projectPhoto} alt="" />
       <div className="mt-2">
         <h3 className="text-2xl font-bold">{projects?.projectTitle}</h3>
@@ -10,7 +12,10 @@ const ProjectCard = ({ projects }) => {
           <button class="btn btn-active btn-secondary"><a href={projects?.gitServer} target="_blank">Server Site Code</a></button>
           <button class="btn btn-active btn-accent"><a href={projects?.liveLink} target="_blank">Live Link</a></button>
         </div>
-        <p className="mt-2">{projects?.projectDescription}</p>
+        <p className="mt-2">{projects?.projectDescription.split(' ').slice(0, 70).join(' ')}</p>
+        <div>
+           <Link to={`/project/${projects?._id}`}><button class="btn btn-outline btn-success mt-5 w-full">View Details</button></Link>
+        </div>
       </div>
     </div>
   );
