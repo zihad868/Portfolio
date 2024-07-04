@@ -4,6 +4,8 @@ import profile from '../../assets/Profile/zihad.png';
 import About from '../About/About';
 import Skill from '../Skill/Skill';
 import Project from '../Project/Project';
+import Contact from '../Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -31,6 +33,11 @@ const Home = () => {
 
            {/* Project */}
            <Project />
+
+           {/* Contact Me */}
+           <Contact />
+
+           <Footer />
         </div>
     );
 };

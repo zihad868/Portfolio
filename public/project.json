@@ -2,7 +2,7 @@
     {
         "_id": 1,
         "projectTitle": "DevTalk-Forum",
-        "projectPhoto": "https://i.ibb.co/4Nn9549/django-1.jpg",
+        "projectPhoto": "https://i.ibb.co/2K4R4z6/Screenshot-from-2024-07-05-00-15-38.png",
         "gitClient": "https://github.com/zihad868/DevTalk-Forum-Client",
         "gitServer": "https://github.com/zihad868/DevTalk-Forum-Server",
         "liveLink": "https://devtalk-ee27e.web.app/",
@@ -11,7 +11,7 @@
       {
         "_id": 2,
         "projectTitle": "E-Learning Book",
-        "projectPhoto": "https://i.ibb.co/4Nn9549/django-1.jpg",
+        "projectPhoto": "https://i.ibb.co/g7WQX3n/Screenshot-from-2024-07-05-00-16-12.png",
         "gitClient": "https://github.com/zihad868/E-Learners-Client",
         "gitServer": "https://github.com/zihad868/E-Learners-Server-",
         "liveLink": "https://librarymanagement-eed8e.web.app",
@@ -20,7 +20,7 @@
       {
         "_id": 3,
         "projectTitle": "Art and Craft",
-        "projectPhoto": "https://i.ibb.co/4Nn9549/django-1.jpg",
+        "projectPhoto": "https://i.ibb.co/s1J9CW1/Screenshot-from-2024-07-05-00-16-54.png",
         "gitClient": "https://github.com/zihad868/Art-Craft-Client",
         "gitServer": "https://github.com/zihad868/Art-Craft-Server",
         "liveLink": "https://artcraft-9fe4c.web.app",
